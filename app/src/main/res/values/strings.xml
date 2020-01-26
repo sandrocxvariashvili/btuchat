@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ბითიუს ჩათი</string>
+    <string name="email">მაილი</string>
+    <string name="password">პაროლი</string>
+    <string name="login">შესვლა</string>
+    <string name="signUp">რეგისტრაცია</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="writeSome">დაწერეთ რამე…</string>
+    <string name="btuMainRoom">საერთო ჩათი</string>
+</resources>

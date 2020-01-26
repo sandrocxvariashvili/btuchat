@@ -1,0 +1,79 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/btu"
+            android:id="@+id/btuLogo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:layout_below="@id/btuLogo"
+            android:id="@+id/loginHint"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@android:color/black"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_below="@id/loginHint"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:id="@+id/loginMail"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:layout_marginTop="5dp"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:id="@+id/loginPassword"
+            android:hint="@string/password"
+            android:layout_below="@id/loginMail" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginPassword"
+            android:layout_marginTop="25dp"
+            android:background="@color/colorAccent"
+            android:text="@string/login"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:id="@+id/loginBtn" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signUp"
+            android:textSize="18sp"
+            android:layout_below="@id/loginBtn"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/loginSignUpBtn" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

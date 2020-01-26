@@ -1,0 +1,41 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="37dp"
+        android:layout_height="45dp"
+        android:background="@drawable/avatar_background"
+        android:src="@drawable/user"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/profilePicture" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/profilePicture"
+        android:layout_toEndOf="@id/profilePicture"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="sandrocxvariashvili@gmail.com"
+            android:textColor="@android:color/black"
+            android:id="@+id/userEmail"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userEmail"
+            android:text="Gamarjoba, es chemi werilia"
+            android:id="@+id/userMessage" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

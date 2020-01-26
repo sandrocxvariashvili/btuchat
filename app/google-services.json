@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "901909390556",
+    "firebase_url": "https://btu-chat.firebaseio.com",
+    "project_id": "btu-chat",
+    "storage_bucket": "btu-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901909390556:android:15fb0e5eae3dde8cf1c019",
+        "android_client_info": {
+          "package_name": "com.example.btuchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "901909390556-paes68oodon8age249pmejur80rm5ov1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.btuchat",
+            "certificate_hash": "a6216b5dad6ecdd3742111e62578b44ccd60de08"
+          }
+        },
+        {
+          "client_id": "901909390556-4uebka8gqjot2m2777lgj11lfho751hg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZjjeI2XNGYFZXufmfK0C2QKbbxwMtE1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "901909390556-4uebka8gqjot2m2777lgj11lfho751hg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
